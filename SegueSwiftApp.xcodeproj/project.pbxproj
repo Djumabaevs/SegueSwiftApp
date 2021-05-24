@@ -16,6 +16,7 @@
 		347F12C7265AA73E0022C24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347F12C5265AA73E0022C24A /* LaunchScreen.storyboard */; };
 		347F12D2265AA73E0022C24A /* SegueSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F12D1265AA73E0022C24A /* SegueSwiftAppTests.swift */; };
 		347F12DD265AA73E0022C24A /* SegueSwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F12DC265AA73E0022C24A /* SegueSwiftAppUITests.swift */; };
+		347F12EB265AAC8E0022C24A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F12EA265AAC8E0022C24A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		347F12D8265AA73E0022C24A /* SegueSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		347F12DC265AA73E0022C24A /* SegueSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueSwiftAppUITests.swift; sourceTree = "<group>"; };
 		347F12DE265AA73E0022C24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347F12EA265AAC8E0022C24A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				347F12B9265AA73D0022C24A /* SceneDelegate.swift */,
 				347F12BB265AA73D0022C24A /* ViewController.swift */,
 				347F12BD265AA73D0022C24A /* Main.storyboard */,
+				347F12EA265AAC8E0022C24A /* SecondViewController.swift */,
 				347F12C3265AA73E0022C24A /* Assets.xcassets */,
 				347F12C5265AA73E0022C24A /* LaunchScreen.storyboard */,
 				347F12C8265AA73E0022C24A /* Info.plist */,
@@ -264,6 +267,7 @@
 				347F12BC265AA73D0022C24A /* ViewController.swift in Sources */,
 				347F12C2265AA73D0022C24A /* SegueSwiftApp.xcdatamodeld in Sources */,
 				347F12B8265AA73D0022C24A /* AppDelegate.swift in Sources */,
+				347F12EB265AAC8E0022C24A /* SecondViewController.swift in Sources */,
 				347F12BA265AA73D0022C24A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
