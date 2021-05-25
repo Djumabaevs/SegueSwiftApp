@@ -15,7 +15,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("viewDidLoad function")
+           
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        print("viewDidDisappear function")
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        print("viewWillDisappear function")
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear function")
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear function")
+        nameText.text = ""   
     }
 
     @IBAction func nextClicked(_ sender: Any) {
@@ -28,7 +42,7 @@ class ViewController: UIViewController {
             let destinationVC = segue.destination as! SecondViewController
             destinationVC.myName = userName
         }
-    } 
+    }
     
 }
 
