@@ -58,6 +58,7 @@
                     <connections>
                         <outlet property="firstViewlabel" destination="uMf-Bq-CLz" id="gGx-uF-fNv"/>
                         <outlet property="nameText" destination="SIN-Uz-84i" id="dHr-a8-AvC"/>
+                        <segue destination="bnC-hZ-99t" kind="show" identifier="gotoSecondVC" id="cgA-ZR-AQn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -119,6 +120,9 @@
             <point key="canvasLocation" x="-1091" y="-188"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cgA-ZR-AQn"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
